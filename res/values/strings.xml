@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Salert</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Searching</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title">Title</string>
+    <string name="add">Track</string>
+    <string name="searchbuttonCD">Search Button CD</string>
+    <string name="add_button">TODO</string>
+    <string name="tracked">Tracked Items</string>
+    <string name="delete">Delete</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="vertical"
+ android:background="#303640"
+ >
+ 
+	 <TextView
+		  android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content"
+		  android:id="@+id/track_title"
+		  android:text="Tracked Items"
+		  android:textSize="25dp"
+		  android:layout_marginTop="3dp"
+		  android:layout_marginLeft="3dp"
+		  android:textColor="#FFFFFF"
+	  />
+	 
+	 <ListView 
+		 android:layout_marginTop="2dip"
+		 android:id="@+id/track_list"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_below="@id/track_title"
+		 /> 
+		 
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|bottom" >
+	 
+	 		    <ImageView android:id="@+id/swipeicon1"
+    		android:layout_width="25dp"
+    		android:layout_height="25dp"
+    		android:scaleType="fitXY"
+            android:src="@drawable/bottom_diamond_inactive"
+            android:layout_centerInParent="true"
+            android:windowSoftInputMode="adjustPan"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp" />
+            
+            <ImageView android:id="@+id/swipeicon2"
+    		android:layout_width="25dp"
+    		android:layout_height="25dp"
+    		android:scaleType="fitXY"
+            android:src="@drawable/bottom_diamond_active"
+            android:layout_centerInParent="true"
+            android:windowSoftInputMode="adjustPan"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp" />
+            
+	</LinearLayout>
+
+</RelativeLayout>
+

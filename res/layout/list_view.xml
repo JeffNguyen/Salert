@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#303541" >
+    
+	<ImageView
+	    android:id="@+id/img"
+	    android:layout_width="75dp"
+	    android:layout_height="75dp"
+	    android:scaleType="fitXY"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="10dp"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"/>
+
+ 
+  <TextView 
+      android:id="@+id/label"
+      android:layout_width="wrap_content" 
+      android:layout_height="fill_parent"
+      android:layout_weight="2"
+      android:autoText="true"
+      android:capitalize="sentences"
+      android:freezesText="true" 
+      android:textSize="12dip"
+      android:clickable="false"
+	  android:focusable="false"
+	  android:focusableInTouchMode="false"
+      android:textColor="#d5d5d5"
+      android:onClick="onClick"
+      android:layout_marginTop="15dp"
+      android:typeface="sans"
+      android:textStyle="bold"/>
+ 
+  <Button 
+      android:text="@string/add"
+   	  android:id="@+id/addButton"
+   	  android:layout_marginTop="2dip"
+   	  android:layout_width="wrap_content"
+   	  android:layout_height="wrap_content"
+   	  android:clickable="false"
+	  android:focusable="false"
+	  android:focusableInTouchMode="false"
+     	   />
+  
+</LinearLayout>
